@@ -2,7 +2,7 @@
 ### Pre-Requisite :
 Put Below Line in Your "$HOME/.zprofile" file
 
-. ~/Productivity_Scripts/Words.sh 
+##### . ~/Productivity_Scripts/Words.sh 
 
 ### Usage :
 This Package Provides Shell Utilities for Many Purpose.
