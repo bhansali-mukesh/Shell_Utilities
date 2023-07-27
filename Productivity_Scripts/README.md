@@ -1,12 +1,10 @@
 
-Pre-Requisite :
-Put Below 2 Lines in Your "$HOME/.zprofile" file
+### Pre-Requisite :
+Put Below Line in Your "$HOME/.zprofile" file
 
-# Productivity Aliases
 . ~/Productivity_Scripts/Words.sh 
 
-
-Usage :
+### Usage :
 This Package Provides Shell Utilities for Many Purpose.
 We tried to Make them Generic and Moduler.
 Here are few of them
@@ -28,10 +26,10 @@ Here are few of them
 
 Map, Ordeed Map, Property Reader, Kubernetes Informer, text Formatter, Substitutor etc with Example
 
-# c : 
+#### c : 
 /* Clear Screen */
 
-Karta : 
+#### Karta : 
 /* Get Kubenetes Result from Pods
 	Example :
 			Karta -c id.cluster.realm1.uj-samarkand-6.mkfefrgpgkpensdnjfkn3439vnfkvfdoka -p MP
@@ -48,7 +46,7 @@ Karta :
  It Enquires Relevant Pod for the Given Command & Shows you Relevant Results
  In Case, You Don't Provide Anything and Just Press Enter, It will take you to Pod Terminal */
 
-cloud : 
+#### cloud : 
 /* Set Alias "cloud" to Point to cloud.sh instead of Directly Executing Command
  Example
 		cloud session refresh
@@ -57,7 +55,7 @@ cloud :
  Adds them in Command Line and Execute
  Update Kubernetes Configuration Files to Update Realm and Region, If Needed */
 
-Auth : 
+#### Auth : 
 /* Authenticate the Cloud Session
  Example
 		Auth
@@ -66,7 +64,7 @@ Auth :
  Refreshes Session to Set Later Expiry, If Session is Already Valid
  ( Cloud Session is Valid for one Hour, If not Refershed ) */
 
-Connect : 
+#### Connect : 
 /* Get Kubenetes Result from Pods
  Example
  		Connect ~/.kube/DEV_MUMBAI_DP id.cluster.realm1.uj-samarkand-6.mkfefrgpgkpensdnjfkn3439vnfkvfdoka DP "ls -l; df -h; free -m"
@@ -80,7 +78,7 @@ Connect :
 	4. Command List ( Optional )
 		Can be Given List of Commands but in Double Quotes ("") Separate them By Semicolon */
 
-Find : 
+#### Find : 
 /* Find Kubernetes Configuration File for Given Cluster ID
  Example
 	Find id.cluster.realm1.uj-samarkand-6.mkfefrgpgkpensdnjfkn3439vnfkvfdoka DP
@@ -91,7 +89,7 @@ Find :
 		Defaul to DP
 		If Given Anything which Doesn't Conatin "MP" in Any Case ( Say, XYZ etc ), Default to DP */
 
-Commandor : 
+#### Commandor : 
  List Available Commands to Choose from
  Example
  		Commandor -c id.cluster.realm1.uj-samarkand-6.mkfefrgpgkpensdnjfkn3439vnfkvfdoka -r ~/Productivity_Scripts/Resources/Example.properties -p MP -s Deleting
@@ -109,7 +107,7 @@ Commandor :
 		State of the Cluster
 		Replaces Value of Variable ${STATE} in Selected Command */
 
-Refresh : 
+#### Refresh : 
 /* Refreshes Cloud Session, If Session is Valid */
 
 Update_Kube : 
@@ -121,16 +119,16 @@ Update_Kube :
 	1. Realm ( Optional )
 		If Not Given, Defaults to realm1 */
 
-kubectl : 
+#### kubectl : 
 /* Authenticate Before Firing kubectl Commands
  Intercepts kubectl Command
  Create A Cloud Session, If Not Created
  Refreshes Cloud Session, If Session is Already Created */
 
-Words : 
+#### Words : 
 /* Open Myself */
 
-Dharta : 
+#### Dharta : 
  Just type "Dharta" on Terminal
  If Dharta is Followed By Some Special Command then it will Show Help for that Command
  Else Displaying Help with Pagination ( Press Enter or Space to Scroll, "q" to Quite )
@@ -139,6 +137,6 @@ Dharta :
  1. Dharta
  2. Dharta Find */
 
-Dharta_Document : 
+#### Dharta_Document : 
 /* Utility Function which Parses this File and Generates The Dharta Documents to Help,
  The Command "Dharta" Generating Help Document from the Source on Runtime */
