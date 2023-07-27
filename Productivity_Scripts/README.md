@@ -28,8 +28,8 @@ Here are few of them
 
 Map, Ordeed Map, Property Reader, Kubernetes Informer, text Formatter, Substitutor etc with Example
 
-c : 
-# Clear Screen
+# c : 
+/* Clear Screen */
 
 Karta : 
 /* Get Kubenetes Result from Pods
